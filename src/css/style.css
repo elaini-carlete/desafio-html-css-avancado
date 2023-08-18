@@ -17,11 +17,11 @@ body{
 .hero{
     display: flex;
     align-items: center;
+    gap: 60px;
     margin-top: 50px;
 }
 
 .hero .info{
-    margin: 50px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -36,13 +36,14 @@ body{
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 20px;
+    line-height: 25px;
 }
 
 .hero .info button{
     color: var(--primary-soft);
     font-weight: 400;
     font-size: 16px;
-    padding: 13px 50px;
+    padding: 15px 50px;
     border-radius: 50px;
     transition: 0.3s;
 }
@@ -57,10 +58,7 @@ body{
     display: flex;
     justify-content: end;
     margin-right: 50px;
-}
-
-.social a{
-    padding-left: 15px;
+    gap: 15px;
 }
 
 .social a i{

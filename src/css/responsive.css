@@ -1,0 +1,38 @@
+@media (max-width: 768px){
+    body{
+        background: var(--primary-soft) url(../image/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container{
+        max-width: 600px;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero .info{
+        text-align: center;
+    }
+
+    .hero img{
+       max-width: 100%;
+       margin-top: 45px;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        margin: 0;
+    }
+
+    .social a i{
+        margin-bottom: 20px;
+    }
+}

@@ -1,7 +1,6 @@
 # Desafio HTML e CSS Avançado
 
-Desafio realizado durante o módulo de css avançado do curso DevQuest
-Baseado no [Desafio da página inicial do Huddle com uma seção introdutória única no Frontend Mentor]
+Desafio realizado durante o módulo de css avançado do curso DevQuest, baseado no [Desafio da página inicial do Huddle com uma seção introdutória única no Frontend Mentor]
 
 ## Overview
 

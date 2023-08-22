@@ -1,16 +1,19 @@
+@media (max-width: 1280px) {
+    .container{
+        padding: 10px;
+    }
+}
+
 @media (max-width: 768px){
     body{
         background: var(--primary-soft) url(../image/bg-mobile.svg) center center no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
     }
 
     .container{
-        max-width: 500px;
-    }
-
-    .logo{
-        margin: 30px 0;
+        max-width: 570px;
+        padding: 10px 30px;
     }
 
     .hero{
@@ -31,26 +34,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 70px;
+        padding-top: 60px;
         padding-bottom: 20px;
     }
 }
 
 @media (max-width: 425px){
-    body{
-        background-size: cover;
-        height: 70vh;
-    }
-
-    .container{
-        padding: 30px;
-    }
-
     .logo{
-        width: 200px;    
+        width: 180px;    
     }
 
     .hero .info h1{
-        font-size: 28px;
+        font-size: 29px;
     }
 }

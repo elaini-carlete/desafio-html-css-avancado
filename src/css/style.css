@@ -6,8 +6,9 @@ body{
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1440px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 .logo{
@@ -46,6 +47,7 @@ body{
     padding: 15px 50px;
     border-radius: 50px;
     transition: 0.3s;
+    box-shadow: #00000059 0px 5px 15px;
 }
 
 .hero .info button:hover{
@@ -61,7 +63,7 @@ body{
     gap: 15px;
 }
 
-.social a i{
+.social li a i{
     border: 1px solid #ffffff;
     border-radius: 50%;
     height: 30px;
@@ -72,7 +74,7 @@ body{
     transition: 0.3s;
 }
 
-.social a:hover i{
+.social li a:hover i{
     color: var(--primary-medium);
     border: 1px solid var(--primary-medium);
 }
